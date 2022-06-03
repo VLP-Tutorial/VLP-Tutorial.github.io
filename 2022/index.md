@@ -1,3 +1,0 @@
-# Recent Advances in Vision-and-Language Pre-training
-## Computer Vision and Pattern Recognition (CVPR), 2022
-Coming soon... 
