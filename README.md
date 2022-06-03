@@ -1,1 +1,1 @@
-https://vqa2vln-tutorial.github.io/
+https://vlp-tutorial.github.io/
