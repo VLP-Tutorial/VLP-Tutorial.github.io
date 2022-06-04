@@ -1,5 +1,555 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to https://vlp-tutorial.github.io/</title>
-<meta http-equiv="refresh" content="0; URL=https://vlp-tutorial.github.io/">
-<link rel="canonical" href="2022/index.html">
+ <!-- FlatFy Theme - Andrea Galanti /-->
+ <!doctype html>
+ <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+ <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+ <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+ <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+ <!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+     <meta name="description" content="Workshop on Advances in Language and Vision Research ">
+     <meta name="author" content="">
+ 
+     <title>CVPR2022 Workshop: Recent Advanced in Vision-and-Language Pre-training</title>
+ 
+     <!-- Bootstrap core CSS -->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+  
+     <!-- Custom Google Web Font -->
+     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+     
+     <!-- Custom CSS-->
+     <link href="2022/css/general.css" rel="stylesheet">
+     
+      <!-- Owl-Carousel -->
+     <link href="css/custom.css" rel="stylesheet">
+     <link href="css/owl.carousel.css" rel="stylesheet">
+     <link href="css/owl.theme.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+     <link href="css/animate.css" rel="stylesheet">
+     
+     <!-- Magnific Popup core CSS file -->
+     <link rel="stylesheet" href="css/magnific-popup.css"> 
+     
+     <script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+     <!--[if IE 9]>
+         <script src="js/PIE_IE9.js"></script>
+     <![endif]-->
+     <!--[if lt IE 9]>
+         <script src="js/PIE_IE678.js"></script>
+     <![endif]-->
+ 
+     <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+     <![endif]-->
+ 
+ </head>
+ 
+ <body id="home">
+ 
+     <!-- Preloader -->
+     <div id="preloader">
+         <div id="status"></div>
+     </div>
+     
+     <!-- FullScreen -->
+     <div class="intro-header">
+         <div class="col-xs-12 text-center abcen1">
+             <div style="background-color: rgba(0,0,0,0.5)">
+                <!-- <h1 class="h1_home wow  animated animated" data-wow-delay="0.4s" style="color: white; text-shadow: black 0px 0px 8px; visibility: visible; animation-delay: 0.4s;">2<sup>nd</sup> Workshop on Advances in Language and Vision Research (ALVR)</h1> -->
+                
+                <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s" style="text-shadow: 0 0 8px #000000;"> Recent Advances in Vision-and-Language Pre-training</h1>
+                <!-- <h3 class="h3_home wow  animated animated" data-wow-delay="0.6s" style="color: white; text-shadow: black -1px 0px, black 0px 1px, black 1px 0px, black 0px -1px, black 2px 2px 4px; visibility: visible; animation-delay: 0.6s;">
+                    In conjunction with <a style="color:white" href="https://2021.naacl.org/" target="_blank"><b>NAACL 2021</b></a> <br>
+                    June 11<sup>st</sup> 2021 (Full Day) <br>
+                    Location: Virtual
+                </h3> -->
+                <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s" style="text-shadow: 0px 8px 4px black, 0 0 25px black"> 
+                    In conjunction with <a style="color:white" href="http://cvpr2022.thecvf.com/" target="_blank"><b>CVPR 2022</b></a> </p> 
+                    June 19<sup>th</sup> 2022 (9:00 AM - 5:00 PM CDT)</p>
+                    Location: New Orleans, Louisiana</p>
+                </h3>
+            </div>
+             
+             <!--ul class="list-inline intro-social-buttons">
+                 <li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
+                 </li>
+                 <li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
+                 </li>
+             </ul-->
+         </div>    
+         <!-- /.container -->
+         <div class="col-xs-12 text-center abcen wow fadeIn">
+             <div class="button_down "> 
+                 <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#scope"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+             </div>
+         </div>
+         <span class="intro-caption">
+             Photo by <a href="https://unsplash.com/@jscocchio">Justin Scocchio</a> on <a href="https://unsplash.com/">Unsplash</a>
+         </span>
+     </div>
+     
+     <!-- NavBar-->
+     <nav class="navbar-default" role="navigation">
+         <div class="container">
+             <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+                 <a class="navbar-brand" href="#home"></a>
+             </div>
+ 
+             <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                 <ul class="nav navbar-nav">
+                     
+                     <li class="menuItem"><a href="#scope">Home</a></li>
+                     <!-- <li class="menuItem"><a href="#submit">Submission</a></li> -->
+                     <!-- <li class="menuItem"><a href="#proceedings">Proceedings</a></li> -->
+                     <li class="menuItem"><a href="#program">Program</a></li>
+                     <!-- <li class="menuItem"><a href="#invited">Invited Speakers</a></li> -->
+                     <li class="menuItem"><a href="#organizers">Organizers</a></li>	
+                     <!-- <li class="menuItem"><a href="#sponsors">Sponsor</a></li>					 -->
+                     <li class="menuItem"><a href="#contacts">Contact</a></li>
+                     <li class="menuItem dropdown">
+                        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Previous Tutorials</a>
+                        <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+                            Previous Tutorials
+                          </button> -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                            <li><a class="dropdown-item" href="2021/index.html" target="_blank" rel="noopener noreferrer">2021</a></li>
+                            <li><a class="dropdown-item" href="2020/index.html" target="_blank" rel="noopener noreferrer">2020</a></li>
+                        </ul>
+                    </li>
+                 </ul>
+             </div>
+            
+         </div>
+     </nav> 
+     
+     <!-- Scope -->
+     <div id ="scope" class="content-section-a" style="border-top: 0">
+ 
+         <div class="container">
+             
+             <div class="row">
+             
+                 <!--div class="col-sm-6 pull-right wow fadeInRightBig">
+                     <img class="img-responsive " src="img/ipad.png" alt="">
+                 </div-->
+         <!--<img  class="img-responsive"  style="width: 20vw"  src="img/cvpr_logo.png" alt="">
+         <img  class="img-responsive"  style="width: 20vw"  src="img/cvf.jpg" alt="">
+         <img  class="img-responsive"  style="width: 10vw"  src="2022/img/organizer/vgis.png" alt="">  -->
+                 <div class="wow fadeInRightBig" data-animation-delay="200"> 
+                     <h3 class="section-heading">CVPR 2022 Tutorial on "Recent Advances in Vision-and-Language Pre-training"</h3>
+             
+                     <!--div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div-->
+                     <p class="lead"  style="text-align:justify">
+                        Humans perceive the world through many channels, such as images viewed by the eyes or voices heard by the ears.
+                        Though any individual channel might be incomplete or noisy, humans can naturally align and fuse information col-
+                        lected from multiple channels, in order to grasp the key concepts needed for a better understanding of the world.
+                        One of the core aspirations in artificial intelligence is to develop algorithms that endow computers with an ability
+                        to effectively learn from multi-modality (or multi-channel) data. This data is similar to sights and sounds attained from
+                        vision and language that help humans make sense of the world around us. For example, computers could mimic this ability by searching the most similar images for a text query (or vice versa) and by describing the content of an image using natural language.<br>
+                        <br>
+                        Vision-and-Language (VL), a popular research area that sits at the nexus of Computer Vision and Natural Language Processing (NLP), aims to achieve this goal. Inspired by the great success of language model pre-training in NLP, Vision-and-Language Pre-training (VLP) has recently attracted rapidly growing attention from both communities. 
+                         In this tutorial, we will cover the most recent approaches and principles at the frontier of VLP, including
+                         (1) region-feature-based and end-to-end image-text pre-training; (2) unified vision-language modeling; (3) its extension to video-language pre-training; (4) learning visual models from language supervision; and (5) visual synthesis.  
+                         The tutorial will be a full-day event (9:00 am to 5:00pm) with several middle breaks.
+                     </p> 
+ 
+ 
+                      <!--p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
+                      <a class="btn btn-embossed btn-info" href="#" role="button">Visit Website</a></p-->
+                 </div>   
+             </div>
+         </div>
+         <!-- /.container -->
+     </div>
+ 
+     <!-- Program -->
+     <div id ="program" class="content-section-a">
+ 
+         <div class="container">				
+                 <div class="wow fadeInLeftBig" data-animation-delay="200">   
+                     <h3 class="section-heading">Program (CDT, UTC-5)</h3>
+ 
+                     <p class="lead">
+                         Our program is divided into the morning and afternoon sessions. In the morning, we will lay our focus on image-text pre-training. During afternoon session, we shift our discussion to other topics. Recordings of each talk will be available after the tutorial.
+                     </p>
+                 </div>
+             
+   <table class="table" style="width:100%">
+    <tr >
+        <td colspan = 2><strong>Morning Session
+        </strong></td>
+        <td></td>
+      </tr>
+       <tr class="info">
+         <td>9:00 - 9:15</td>
+         <td><strong>Opening Remarks &emsp;
+             <!-- [<a href="https://youtu.be/qrQTA9orWLg" style="color:orange">Video</a>] -->
+         </strong></td>
+         <td>Lijuan Wang</td>
+       </tr>
+ 
+       <tr class="success">
+         <td>9:15 - 10:00</td>
+         <td><strong>Overview of VLP Models &emsp;
+            <!-- [<a href="https://youtu.be/ToP9jI0kBtw" style="color:orange">Video</a>]&nbsp;&nbsp;[<a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLP_part1.pdf" style="color:orange">Slides</a>]</strong> -->
+             <!-- [<a href="./talks/Angel_ALVR.pdf" style="color:orange">Slides</a>]</strong><br />Invited Talk & QA -->
+         </td>
+         <td>Jianfeng Wang</td>
+       </tr>
+ 
+       <tr>
+         <td>10:00 - 10:15</td>
+         <td><strong>Coffee Break & QA &emsp;
+            <!-- [<a href="https://youtu.be/5XRYFLPBA1U" style="color:orange">Video</a>]&nbsp;&nbsp;[<a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLP_part2.pdf" style="color:orange">Slides</a>]</strong> -->
+             <!-- [<a href="https://slideslive.com/38929761/robot-control-in-situated-instruction-following" style="color:orange">Video</a>] [<a href="./talks/yoav-control-alvr.pdf" style="color:orange">Slides</a>]</strong><br />Invited Talk & QA -->
+         </td>
+         <td></td>
+       </tr>
+ 
+       <tr class="info">
+         <td>10:15 - 11:00</td>
+        
+         <td><strong>Unified Vision-Language Modeling&emsp;
+            <!-- [<a href="https://youtu.be/19Z6cghHWMc" style="color:orange">Video</a>]&nbsp;&nbsp;[<a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLP_part3.pdf" style="color:orange">Slides</a>]</strong> -->
+             <!-- <br />Invited Talk & QA -->
+         </td>
+         <td>Zhengyuan Zhang</td>
+       </tr>
+ 
+       <tr class="success">
+         <td>11:00 - 11:45</td>
+         <td><strong>Advanced Topics in VLP
+            &emsp;
+            <!-- [<a href="https://youtu.be/r1ZeomlYXmo" style="color:orange">Video</a>]&nbsp;&nbsp;[<a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLN_part1.pdf" style="color:orange">Slides</a>] -->
+         </strong></td>
+         <td>Zhe Gan</td>
+       </tr>
+ 
+       <tr>
+         <td>11:45 - 12:00</td>
+         <td><strong>Q & A &emsp;
+            <!-- [<a href="https://youtu.be/5XRYFLPBA1U" style="color:orange">Video</a>]&nbsp;&nbsp;[<a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLP_part2.pdf" style="color:orange">Slides</a>]</strong> -->
+             <!-- [<a href="https://slideslive.com/38929761/robot-control-in-situated-instruction-following" style="color:orange">Video</a>] [<a href="./talks/yoav-control-alvr.pdf" style="color:orange">Slides</a>]</strong><br />Invited Talk & QA -->
+         </td>
+         <td></td>
+       </tr>
+ 
+       
+     <tr >
+        <td colspan = 2><strong>Afternoon Session
+        </strong></td>
+        <td></td>
+      </tr>
+ 
+       <tr class="info">
+         <td>13:00 - 13: 30</td>
+         <td><strong>Overview of Video-Text Pre-training
+            &emsp;
+            <!-- [<a href="https://youtu.be/XGB1EJuUgBg" style="color:orange">Video</a>]&nbsp;&nbsp;[
+            <a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLN_part3-yoav.pdf" style="color:orange">Slides</a>]</strong>
+             [<a href="https://slideslive.com/38929766/agument-intelligence-with-multimodal-information" style="color:orange">Video</a>]</li></strong><br />Invited Talk & QA -->
+            </strong></td>
+         <td>Linjie Li</td>
+       </tr>
+ 
+       <tr class="success">
+         <td>13:30 - 14:00</td>
+         <td><strong>Learning from Multi-channel Videos: Methods and Benchmarks
+            <!-- &emsp;
+            [<a href="https://youtu.be/IeZxjlizl7U" style="color:orange">Video</a>]&nbsp;&nbsp;[
+            <a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLN_part4.pdf" style="color:orange">Slides</a>] -->
+         </strong>
+             <!-- [<a href="https://slideslive.com/38929764/dungeons-and-dqns-grounding-language-in-shared-experience" style="color:orange">video (SlidesLive)</a>] [<a href="https://youtu.be/YemciyRtYeI" style="color:orange">video (YouTube)</a>]</li></strong><br />Invited Talk & QA -->
+         </td>
+         <td>Kevin Lin</td>
+       </tr>
+ 
+       <tr class="info">
+         <td>14:00 - 14: 30</td>
+         <td><strong>Advanced Topics in Video-text Pretraining
+            &emsp;
+            <!-- [<a href="https://youtu.be/XGB1EJuUgBg" style="color:orange">Video</a>]&nbsp;&nbsp;[
+            <a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLN_part3-yoav.pdf" style="color:orange">Slides</a>]</strong>
+             [<a href="https://slideslive.com/38929766/agument-intelligence-with-multimodal-information" style="color:orange">Video</a>]</li></strong><br />Invited Talk & QA -->
+            </strong></td>
+         <td>Chung-Ching Lin</td>
+       </tr>
+ 
+       <tr>
+         <td>14:30 - 14:45</td>
+         <td><strong>Coffee Break & QA &emsp;
+            <!-- [<a href="https://youtu.be/5XRYFLPBA1U" style="color:orange">Video</a>]&nbsp;&nbsp;[<a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLP_part2.pdf" style="color:orange">Slides</a>]</strong> -->
+             <!-- [<a href="https://slideslive.com/38929761/robot-control-in-situated-instruction-following" style="color:orange">Video</a>] [<a href="./talks/yoav-control-alvr.pdf" style="color:orange">Slides</a>]</strong><br />Invited Talk & QA -->
+         </td>
+         <td></td>
+       </tr>
+       
+       <tr class="info">
+        <td>14:45 - 15: 15</td>
+        <td><strong>VL for Image Classification
+           &emsp;
+           <!-- [<a href="https://youtu.be/XGB1EJuUgBg" style="color:orange">Video</a>]&nbsp;&nbsp;[
+           <a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLN_part3-yoav.pdf" style="color:orange">Slides</a>]</strong>
+            [<a href="https://slideslive.com/38929766/agument-intelligence-with-multimodal-information" style="color:orange">Video</a>]</li></strong><br />Invited Talk & QA -->
+           </strong></td>
+        <td>Jianwei Yang</td>
+      </tr>
+
+      <tr class="success">
+        <td>15:15 - 15:45</td>
+        <td><strong>VL for Object Detection
+           <!-- &emsp;
+           [<a href="https://youtu.be/IeZxjlizl7U" style="color:orange">Video</a>]&nbsp;&nbsp;[
+           <a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLN_part4.pdf" style="color:orange">Slides</a>] -->
+        </strong>
+            <!-- [<a href="https://slideslive.com/38929764/dungeons-and-dqns-grounding-language-in-shared-experience" style="color:orange">video (SlidesLive)</a>] [<a href="https://youtu.be/YemciyRtYeI" style="color:orange">video (YouTube)</a>]</li></strong><br />Invited Talk & QA -->
+        </td>
+        <td>Pengchuan Zhang</td>
+      </tr>
+
+      <tr class="info">
+        <td>15:45 - 16:15</td>
+        <td><strong>Benchmarks for Computer Vision in the Wild
+           &emsp;
+           <!-- [<a href="https://youtu.be/XGB1EJuUgBg" style="color:orange">Video</a>]&nbsp;&nbsp;[
+           <a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLN_part3-yoav.pdf" style="color:orange">Slides</a>]</strong>
+            [<a href="https://slideslive.com/38929766/agument-intelligence-with-multimodal-information" style="color:orange">Video</a>]</li></strong><br />Invited Talk & QA -->
+           </strong></td>
+        <td>Chunyuan Li</td>
+      </tr>
+
+      <tr class="success">
+        <td>16:15 - 16:45</td>
+        <td><strong>Visual synthesis with Multimodal Pre-training
+           <!-- &emsp;
+           [<a href="https://youtu.be/IeZxjlizl7U" style="color:orange">Video</a>]&nbsp;&nbsp;[
+           <a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLN_part4.pdf" style="color:orange">Slides</a>] -->
+        </strong>
+            <!-- [<a href="https://slideslive.com/38929764/dungeons-and-dqns-grounding-language-in-shared-experience" style="color:orange">video (SlidesLive)</a>] [<a href="https://youtu.be/YemciyRtYeI" style="color:orange">video (YouTube)</a>]</li></strong><br />Invited Talk & QA -->
+        </td>
+        <td>Chenfei Wu</td>
+      </tr>
+ 
+      <tr>
+        <td>16:45 - 17:00</td>
+        <td><strong>Q & A &emsp;
+           <!-- [<a href="https://youtu.be/5XRYFLPBA1U" style="color:orange">Video</a>]&nbsp;&nbsp;[<a href="https://datarelease.blob.core.windows.net/tutorial/VQA2VLN2021/VLP_part2.pdf" style="color:orange">Slides</a>]</strong> -->
+            <!-- [<a href="https://slideslive.com/38929761/robot-control-in-situated-instruction-following" style="color:orange">Video</a>] [<a href="./talks/yoav-control-alvr.pdf" style="color:orange">Slides</a>]</strong><br />Invited Talk & QA -->
+        </td>
+        <td></td>
+      </tr>
+ 
+     </table>
+ 
+             
+             
+ 
+             <div class="container">				
+                 <div class="wow fadeInRightBig" data-animation-delay="200">
+                 </div>
+             </div>
+         </div>
+     </div>
+     
+     <!-- Organizers -->
+     <div id="organizers" class="content-section-a"> 
+         
+         <div class="container">
+                 <div class="row wow fadeInRightBig"  data-animation-delay="200">
+                 <h3 class="section-heading">Organizers</h3>
+                 
+                 
+ 
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/zhe_cropped.jpg" alt=""></center>
+                     <h4 class="section-heading"><center><a href="https://zhegan27.github.io/">Zhe Gan</a></center></h4>
+                     <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+                 
+                <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                    <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/chunyuan.jpg" alt=""></center>
+                    <h4 class="section-heading"><center><a href="https://chunyuan.li/">Chunyuan Li</a></center></h4>
+                    <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+                 
+ 
+                <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                    <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/linjie_li_cropped.jpg" alt=""></center>
+                    <h4 class="section-heading"><center><a href="https://scholar.google.com/citations?user=WR875gYAAAAJ&hl=en">Linjie Li</a></center></h4>
+                    <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+                
+                <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                    <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/cc.jpg" alt=""></center>
+                    <h4 class="section-heading"><center><a href="https://www.microsoft.com/en-us/research/people/chunglin/">Chung-Ching Lin</a></center></h4>
+                    <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+                <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                    <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/kevin.png" alt=""></center>
+                    <h4 class="section-heading"><center><a href="https://sites.google.com/site/kevinlin311tw/me">Kevin Lin</a></center></h4>
+                    <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+ 
+                 </div>
+ 
+ 
+ 
+             <div class="row wow fadeInRightBig"  data-animation-delay="200">
+
+                <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                    <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/lijuan.jpg" alt=""></center>
+                    <h4 class="section-heading"><center><a href="https://www.microsoft.com/en-us/research/people/lijuanw/">Lijuan Wang</a></center></h4>
+                    <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+
+                <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                    <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="145" width="145" src="2022/img/organizer/jianfeng.jpg" alt=""></center>
+                    <h4 class="section-heading"><center><a href="https://amsword.github.io/">Jianfeng Wang</a></center></h4>
+                    <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/chenfei.jpg" alt=""></center>
+                     <h4 class="section-heading"><center><a href="https://www.microsoft.com/en-us/research/people/chewu/">Chenfei Wu</a></center></h4>
+                     <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                 </div>
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/jianwei.png" alt=""></center>
+                     <h4 class="section-heading"><center><a href="https://jwyang.github.io/">Jianwei Yang</a></center></h4>
+                     <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                 </div>
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/pengchuan.jpg" alt=""></center>
+                     <h4 class="section-heading"><center><a href="https://pzzhang.github.io/pzzhang/">Pengchuan Zhang</a></center></h4>
+                     <h5 class="section-heading"><center><i>Meta AI</i></center></h5>
+                 </div>
+                 </div>
+
+                 <div class="row wow fadeInRightBig"  data-animation-delay="200">
+
+                    <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                        <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/zhengyuan.png" alt=""></center>
+                        <h4 class="section-heading"><center><a href="https://zyang-ur.github.io/">Zhengyuan Zhang</a></center></h4>
+                        <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                    </div>
+
+                    <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                        <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/zicheng.jpg" alt=""></center>
+                        <h4 class="section-heading"><center><a href="https://www.microsoft.com/en-us/research/people/zliu/">Zicheng Liu</a></center></h4>
+                        <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                    </div>
+
+                    <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                        <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/jianfengg.jpg" alt=""></center>
+                        <h4 class="section-heading"><center><a href="https://www.microsoft.com/en-us/research/people/jfgao/">Jianfeng Gao</a></center></h4>
+                        <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                    </div>
+    
+                     </div>
+ 
+ 
+                 
+ <!--
+                 
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                     <h4 class="section-heading"><center>XX</center></h4>
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/XX.jpg" alt=""></center>
+                     <h5 class="section-heading"><center><i>XX</i></center></h5>
+                 </div>
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                     <h4 class="section-heading"><center>XX</center></h4>
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="2022/img/organizer/XX.jpg" alt=""></center>
+                     <h5 class="section-heading"><center><i>XX</i></center></h5>
+                 </div>
+ -->
+             </div>
+         </div>
+     </div>
+ 
+         <!-- /.container -->
+     
+     <div id="contacts" class="content-section-c ">
+              <!-- Contacts -->
+         <div class="container">
+             <div class="row">
+             
+                 <!--div class="col-sm-6 pull-right wow fadeInRightBig">
+                     <img class="img-responsive " src="img/ipad.png" alt="">
+                 </div-->
+                 
+                 <div class="wow fadeInLeftBig" data-animation-delay="200">   
+                     <h3 class="section-heading" style="color:white">Contacts</h3>
+                     <!--div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div-->
+                     <p class="lead"  style="text-align:left;color:white">
+                         Contact the Organizing Committee: vlp-tutorial@googlegroups.com
+                     </p>
+                     
+                 </div>   
+                 <!-- <div class="wow fadeInLeftBig" data-animation-delay="200">   
+                     <h3 class="section-heading"></h3>
+                     <p class="lead"  style="text-align:right">
+                         ©MULA2019
+                     </p>
+                     
+                 </div>   	 -->				
+             </div>
+             <div class="row">
+             
+                         <div class="col-md-6 col-md-offset-3 text-center">
+                             <div >
+                                     <div class="morph-button ">
+                                         <button type="button"></button>
+                                         
+                                     </div>
+                             </div>
+                         </div>	
+             </div>
+ 
+         </div>
+     </div>	
+ 
+    
+     <footer>
+     
+     </footer>
+ 
+     <!-- JavaScript -->
+     <script src="js/jquery-1.10.2.js"></script>
+     <script src="js/bootstrap.js"></script>
+     <script src="js/owl.carousel.js"></script>
+     <script src="js/script.js"></script>
+     <!-- StikyMenu -->
+     <script src="js/stickUp.min.js"></script>
+     <script type="text/javascript">
+       jQuery(function($) {
+         $(document).ready( function() {
+           $('.navbar-default').stickUp();
+           
+         });
+       });
+     
+     </script>
+     <!-- Smoothscroll -->
+     <script type="text/javascript" src="js/jquery.corner.js"></script> 
+     <script src="js/wow.min.js"></script>
+     <script>
+      new WOW().init();
+     </script>
+     <script src="js/classie.js"></script>
+     <script src="js/uiMorphingButton_inflow.js"></script>
+     <!-- Magnific Popup core JS file -->
+     <script src="js/jquery.magnific-popup.js"></script> 
+ </body>
+ 
+ </html>
+ 
