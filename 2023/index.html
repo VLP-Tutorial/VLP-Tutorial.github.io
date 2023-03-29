@@ -1,0 +1,335 @@
+ <!-- FlatFy Theme - Andrea Galanti /-->
+ <!doctype html>
+ <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+ <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+ <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+ <!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+ <!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+     <meta name="description" content="Workshop on Advances in Language and Vision Research ">
+     <meta name="author" content="">
+ 
+     <title>CVPR2022 Tutorial: Recent Advanced in Vision-and-Language Pre-training</title>
+ 
+     <!-- Bootstrap core CSS -->
+     <link href="../css/bootstrap.min.css" rel="stylesheet">
+  
+     <!-- Custom Google Web Font -->
+     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet">
+     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+     <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+     
+     <!-- Custom CSS-->
+     <link href="css/general.css" rel="stylesheet">
+     
+      <!-- Owl-Carousel -->
+     <link href="./css/custom.css" rel="stylesheet">
+     <link href="../css/owl.carousel.css" rel="stylesheet">
+     <link href="../css/owl.theme.css" rel="stylesheet">
+     <link href="../css/style.css" rel="stylesheet">
+     <link href="../css/animate.css" rel="stylesheet">
+     
+     <!-- Magnific Popup core CSS file -->
+     <link rel="stylesheet" href="../css/magnific-popup.css"> 
+     
+     <script src="../js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+     <!--[if IE 9]>
+         <script src="js/PIE_IE9.js"></script>
+     <![endif]-->
+     <!--[if lt IE 9]>
+         <script src="js/PIE_IE678.js"></script>
+     <![endif]-->
+ 
+     <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+     <![endif]-->
+ 
+ </head>
+ 
+ <body id="home">
+ 
+     <!-- Preloader -->
+     <div id="preloader">
+         <div id="status"></div>
+     </div>
+     
+     <!-- FullScreen -->
+     <div class="intro-header">
+         <div class="col-xs-12 text-center abcen1">
+             <div style="background-color: rgba(0,0,0,0.5)">
+                <!-- <h1 class="h1_home wow  animated animated" data-wow-delay="0.4s" style="color: white; text-shadow: black 0px 0px 8px; visibility: visible; animation-delay: 0.4s;">2<sup>nd</sup> Workshop on Advances in Language and Vision Research (ALVR)</h1> -->
+                
+                <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s" style="text-shadow: 0 0 8px #000000;"> Recent Advances in Vision Foundation Models</h1>
+                <br>
+                <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s" style="text-shadow: 0px 8px 4px black, 0 0 25px black"> 
+                    In conjunction with <a style="color:white" href="http://cvpr2023.thecvf.com/" target="_blank"><b>CVPR 2023</b></a> </p> 
+                    June 19<sup>th</sup> 2022 (8:00 AM - 12:00 PM PT)</p>
+                    Location: Vancouver, Canada</p>
+                </h3>
+            </div>
+             
+             <!--ul class="list-inline intro-social-buttons">
+                 <li><a href="https://twitter.com/galantiandrea" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Twitter</span></a>
+                 </li>
+                 <li id="download" ><a href="#downloadlink" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Free Download</span></a>
+                 </li>
+             </ul-->
+         </div>    
+         <!-- /.container -->
+         <div class="col-xs-12 text-center abcen wow fadeIn">
+             <div class="button_down "> 
+                 <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#scope"> <img class="img_scroll" src="../img/icon/circle.png" alt=""> </a>
+             </div>
+         </div>
+         <span class="intro-caption">
+             Photo by <a href="https://unsplash.com/@mbenna">Mike Benna</a> on <a href="https://unsplash.com/">Unsplash</a>
+         </span>
+     </div>
+     
+     <!-- NavBar-->
+     <nav class="navbar-default" role="navigation">
+         <div class="container">
+             <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                 </button>
+                 <a class="navbar-brand" href="#home"></a>
+             </div>
+ 
+             <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+                 <ul class="nav navbar-nav">
+                     
+                     <li class="menuItem"><a href="#scope">Home</a></li>
+                     <!-- <li class="menuItem"><a href="#submit">Submission</a></li> -->
+                     <!-- <li class="menuItem"><a href="#proceedings">Proceedings</a></li> -->
+                     <li class="menuItem"><a href="#program">Program</a></li>
+                     <!-- <li class="menuItem"><a href="#invited">Invited Speakers</a></li> -->
+                     <li class="menuItem"><a href="#organizers">Organizers</a></li>	
+                     <!-- <li class="menuItem"><a href="#sponsors">Sponsor</a></li>					 -->
+                     <li class="menuItem"><a href="#contacts">Contact</a></li>
+                     <li class="menuItem dropdown">
+                        <a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Previous Tutorials</a>
+                        <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
+                            Previous Tutorials
+                          </button> -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+                            <li><a class="dropdown-item" href="../2022/index.html" target="_blank" rel="noopener noreferrer">2022</a></li>
+                            <li><a class="dropdown-item" href="../2021/index.html" target="_blank" rel="noopener noreferrer">2021</a></li>
+                            <li><a class="dropdown-item" href="../2020/index.html" target="_blank" rel="noopener noreferrer">2020</a></li>
+                        </ul>
+                    </li>
+                 </ul>
+             </div>
+            
+         </div>
+     </nav> 
+     
+     <!-- Scope -->
+     <div id ="scope" class="content-section-a" style="border-top: 0">
+ 
+         <div class="container">
+             
+             <div class="row">
+             
+                 <!--div class="col-sm-6 pull-right wow fadeInRightBig">
+                     <img class="img-responsive " src="img/ipad.png" alt="">
+                 </div-->
+         <!--<img  class="img-responsive"  style="width: 20vw"  src="img/cvpr_logo.png" alt="">
+         <img  class="img-responsive"  style="width: 20vw"  src="img/cvf.jpg" alt="">
+         <img  class="img-responsive"  style="width: 10vw"  src="img/organizer/vgis.png" alt="">  -->
+                 <div class="wow fadeInRightBig" data-animation-delay="200"> 
+                     <h3 class="section-heading">CVPR 2023 Tutorial on "Recent Advances in Vision Foundation Models"</h3>
+             
+                     <!--div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div-->
+                     <p class="lead"  style="text-align:justify">
+                        Visual understanding at different levels of granularity has been a longstanding problem in the computer vision community. The tasks span from image-level tasks (e.g., image classification, image-text retrieval, image captioning, and visual question answering), region-level localization tasks (e.g., object detection and phrase grounding), to pixel-level grouping tasks (e.g., image instance/semantic/panoptic segmentation). Until recently, most of these tasks have been separately tackled with specialized model designs, preventing the synergy of tasks across different granularities from being exploited.
+                        <br>
+                        <br>
+                        In light of the versatility of transformers and inspired by large-scale vision-language pre-training, the computer vision community is now witnessing a growing interest in building general-purpose vision systems, also called vision foundation models, that can learn from and be applied to various downstream tasks, ranging from image-level , region-level, to pixel-level vision tasks.<br>
+                        <br>
+                        In this tutorial, we will cover the most recent approaches and principles at the frontier of learning and applying vision foundation models, including (1) learning vision foundation models from natural language supervision, with applications to open-vocabulary image classification and retrieval, object detection, segmentation, and multimodal understanding; (2) learning vision foundation models via masked image modeling, with its extensions to multimodal pre-training; and (3) vision foundation model architecture design with transformer and beyond. <br>
+                        <br>
+                        The tutorial will be a half-day event (8:00 am to 12:00pm).
+                     </p> 
+                 </div>   
+             </div>
+         </div>
+         <!-- /.container -->
+     </div>
+ 
+     <!-- Program -->
+     <div id ="program" class="content-section-a">
+ 
+        <div class="container">				
+                <div class="wow fadeInLeftBig" data-animation-delay="200">   
+                    <h3 class="section-heading">Program (PT, UTC-7)</h3>
+
+                    <p class="lead">
+                        TBD.
+                    </p>
+                </div>
+            
+            
+
+            <div class="container">				
+                <div class="wow fadeInRightBig" data-animation-delay="200">
+                </div>
+            </div>
+        </div>
+    </div>
+     
+     <!-- Organizers -->
+     <div id="organizers" class="content-section-a"> 
+         
+         <div class="container">
+                 <div class="row wow fadeInRightBig"  data-animation-delay="200">
+                 <h3 class="section-heading">Organizers</h3>
+                 
+ 
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="img/organizer/linjie_li_cropped.jpg" alt=""></center>
+                     <h4 class="section-heading"><center><a href="https://scholar.google.com/citations?user=WR875gYAAAAJ&hl=en">Linjie Li</a></center></h4>
+                     <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                 </div>
+                 
+                 
+ 
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="img/organizer/zhe_cropped.jpg" alt=""></center>
+                     <h4 class="section-heading"><center><a href="https://zhegan27.github.io/">Zhe Gan</a></center></h4>
+                     <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+                 
+                <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                    <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="img/organizer/chunyuan.jpg" alt=""></center>
+                    <h4 class="section-heading"><center><a href="https://chunyuan.li/">Chunyuan Li</a></center></h4>
+                    <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+                
+                <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                    <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="img/organizer/jianwei.png" alt=""></center>
+                    <h4 class="section-heading"><center><a href="https://jwyang.github.io/">Jianwei Yang</a></center></h4>
+                    <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                </div>
+ 
+                 </div>
+ 
+ 
+
+                 <div class="row wow fadeInRightBig"  data-animation-delay="200">
+
+                    <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                        <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="img/organizer/lijuan.jpg" alt=""></center>
+                        <h4 class="section-heading"><center><a href="https://www.microsoft.com/en-us/research/people/lijuanw/">Lijuan Wang</a></center></h4>
+                        <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                    </div>
+
+                    <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                        <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="img/organizer/jianfengg.jpg" alt=""></center>
+                        <h4 class="section-heading"><center><a href="https://www.microsoft.com/en-us/research/people/jfgao/">Jianfeng Gao</a></center></h4>
+                        <h5 class="section-heading"><center><i>Microsoft</i></center></h5>
+                    </div>
+    
+                     </div>
+ 
+ 
+                 
+ <!--
+                 
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                     <h4 class="section-heading"><center>XX</center></h4>
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="img/organizer/XX.jpg" alt=""></center>
+                     <h5 class="section-heading"><center><i>XX</i></center></h5>
+                 </div>
+                 <div class="col-sm-2 wow fadeInRightBig"  data-animation-delay="200">   
+                     <h4 class="section-heading"><center>XX</center></h4>
+                     <center><img  class="img-responsive img-rounded" style="border-radius: 50%" height="150" width="150" src="img/organizer/XX.jpg" alt=""></center>
+                     <h5 class="section-heading"><center><i>XX</i></center></h5>
+                 </div>
+ -->
+             </div>
+         </div>
+     </div>
+ 
+
+     <div id="contacts" class="content-section-c ">
+              <!-- Contacts -->
+         <div class="container">
+             <div class="row">
+             
+                 <!--div class="col-sm-6 pull-right wow fadeInRightBig">
+                     <img class="img-responsive " src="img/ipad.png" alt="">
+                 </div-->
+                 
+                 <div class="wow fadeInLeftBig" data-animation-delay="200">   
+                     <h3 class="section-heading" style="color:white">Contacts</h3>
+                     <!--div class="sub-title lead3">Lorem ipsum dolor sit atmet sit dolor greand fdanrh<br> sdfs sit atmet sit dolor greand fdanrh sdfs</div-->
+                     <p class="lead"  style="text-align:left;color:white">
+                         Contact the Organizing Committee: vlp-tutorial@googlegroups.com
+                     </p>
+                     
+                 </div>   
+                 <!-- <div class="wow fadeInLeftBig" data-animation-delay="200">   
+                     <h3 class="section-heading"></h3>
+                     <p class="lead"  style="text-align:right">
+                         ©MULA2019
+                     </p>
+                     
+                 </div>   	 -->				
+             </div>
+             <div class="row">
+             
+                         <div class="col-md-6 col-md-offset-3 text-center">
+                             <div >
+                                     <div class="morph-button ">
+                                         <button type="button"></button>
+                                         
+                                     </div>
+                             </div>
+                         </div>	
+             </div>
+ 
+         </div>
+     </div>	
+ 
+    
+     <footer>
+     
+     </footer>
+ 
+     <!-- JavaScript -->
+     <script src="../js/jquery-1.10.2.js"></script>
+     <script src="../js/bootstrap.js"></script>
+     <script src="../js/owl.carousel.js"></script>
+     <script src="../js/script.js"></script>
+     <!-- StikyMenu -->
+     <script src="../js/stickUp.min.js"></script>
+     <script type="text/javascript">
+       jQuery(function($) {
+         $(document).ready( function() {
+           $('.navbar-default').stickUp();
+           
+         });
+       });
+     
+     </script>
+     <!-- Smoothscroll -->
+     <script type="text/javascript" src="../js/jquery.corner.js"></script> 
+     <script src="../js/wow.min.js"></script>
+     <script>
+      new WOW().init();
+     </script>
+     <script src="../js/classie.js"></script>
+     <script src="../js/uiMorphingButton_inflow.js"></script>
+     <!-- Magnific Popup core JS file -->
+     <script src="../js/jquery.magnific-popup.js"></script> 
+ </body>
+ 
+ </html>
+ 
